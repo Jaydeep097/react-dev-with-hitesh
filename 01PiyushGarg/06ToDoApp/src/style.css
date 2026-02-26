@@ -1,0 +1,9 @@
+.todo-container{
+    width: 300px;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.todo-item{
+    display: flex;
+}
