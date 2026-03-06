@@ -1,5 +1,10 @@
-function largest(arr) {
-  return Math.max(...arr);
+const arr = [1,24,4,5,6,7]
+
+let max = arr[0];
+for(let i = 0 ; i < arr.length ; i++){
+    if (arr[i] > max){
+        max = arr[i];
+    }
 }
 
-console.log(largest([1, 5, 3, 9, 2])); // 9
+console.log(max)
