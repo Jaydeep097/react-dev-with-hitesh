@@ -8,3 +8,10 @@ for(let i = 0 ; i < arr.length ; i++){
 }
 
 console.log(max)
+
+// now using Math.max  an spread operator
+
+const array = [3,44,66,44,22];
+
+const max2 = Math.max(array);
+console.log(max2);
