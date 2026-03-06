@@ -5,6 +5,7 @@
 // }
 // console.log(isPallindrome())
 
+// good prctice 
 
 
 
