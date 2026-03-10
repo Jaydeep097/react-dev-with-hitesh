@@ -10,7 +10,7 @@
 
 
 function isPallindrome(str){
-    return str ? str == str.split('').reverse().join('') : console.log('not a plindrome');
+    return str ? str == str.split('').reverse().join('') : false;
 }
 
 console.log(isPallindrome('loooy'))

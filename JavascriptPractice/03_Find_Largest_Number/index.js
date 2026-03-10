@@ -4,7 +4,6 @@ let max = arr[0];
 for(let i = 0 ; i < arr.length ; i++){
     if (arr[i] > max){
         max = arr[i];
-        
     }
 }
 
@@ -14,5 +13,5 @@ console.log(max)
 
 const array = [3,44,66,44,22];
 
-const max2 = Math.max(array);
+const max2 = Math.max(...array);
 console.log(max2);
