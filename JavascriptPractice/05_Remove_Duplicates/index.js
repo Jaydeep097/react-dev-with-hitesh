@@ -1,5 +1,4 @@
-function removeDup(arr) {
-  return [...new Set(arr)];
-}
+const arr = [10,23,32,23,33,56,77];
 
-console.log(removeDup([1, 2, 2, 3, 3, 4])); // [1, 2, 3, 4]
+const uniqueArray = [...new Set(arr)]
+console.log(uniqueArray)
