@@ -14,4 +14,5 @@ const CounterComponent =()=>{
         </div>
     )
 }
+
 export default CounterComponent; 
